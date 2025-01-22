@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DesktopLabel Version="1">
+	<DYMOLabel Version="3">
+		<Description>DYMO Label</Description>
+		<Orientation>Landscape</Orientation>
+		<LabelName>Address</LabelName>
+		<InitialLength>0</InitialLength>
+		<BorderStyle>SolidLine</BorderStyle>
+		<DYMORect>
+			<DYMOPoint>
+				<X>0.23</X>
+				<Y>0.06</Y>
+			</DYMOPoint>
+			<Size>
+				<Width>3.21</Width>
+				<Height>0.9966666</Height>
+			</Size>
+		</DYMORect>
+		<BorderColor>
+			<SolidColorBrush>
+				<Color A="1" R="0" G="0" B="0"></Color>
+			</SolidColorBrush>
+		</BorderColor>
+		<BorderThickness>1</BorderThickness>
+		<Show_Border>False</Show_Border>
+		<DynamicLayoutManager>
+			<RotationBehavior>ClearObjects</RotationBehavior>
+			<LabelObjects>
+				<QRCodeObject>
+					<Name>QRCodeObject0</Name>
+					<Brushes>
+						<BackgroundBrush>
+							<SolidColorBrush>
+								<Color A="1" R="1" G="1" B="1"></Color>
+							</SolidColorBrush>
+						</BackgroundBrush>
+						<BorderBrush>
+							<SolidColorBrush>
+								<Color A="1" R="0" G="0" B="0"></Color>
+							</SolidColorBrush>
+						</BorderBrush>
+						<StrokeBrush>
+							<SolidColorBrush>
+								<Color A="1" R="0" G="0" B="0"></Color>
+							</SolidColorBrush>
+						</StrokeBrush>
+						<FillBrush>
+							<SolidColorBrush>
+								<Color A="1" R="0" G="0" B="0"></Color>
+							</SolidColorBrush>
+						</FillBrush>
+					</Brushes>
+					<Rotation>Rotation0</Rotation>
+					<OutlineThickness>1</OutlineThickness>
+					<IsOutlined>False</IsOutlined>
+					<BorderStyle>SolidLine</BorderStyle>
+					<Margin>
+						<DYMOThickness Left="0" Top="0" Right="0" Bottom="0" />
+					</Margin>
+					<BarcodeFormat>QRCode</BarcodeFormat>
+					<Data>
+						<DataString>[)&gt;{RS}20{GS}A35-0BW-RD6-04AA{GS}2290285393{GS}2290285394{GS}2290285395{GS}2290285396{GS}2290285397{GS}2290285398{GS}2290285399{GS}2290285400{GS}2290285401{GS}2290285402{GS}2290285403{GS}2290285404{GS}2290285405{GS}2290285406{GS}2290285407{GS}2290285408{GS}2290285409{GS}2290285410{GS}2290285411{GS}2290285412{GS}{RS}{Eot}</DataString>
+					</Data>
+					<HorizontalAlignment>Center</HorizontalAlignment>
+					<VerticalAlignment>Middle</VerticalAlignment>
+					<Size>AutoFit</Size>
+					<EQRCodeType>QRCodeText</EQRCodeType>
+					<TextDataHolder>
+						<Value>[)&gt;{RS}20{GS}A35-0BW-RD6-04AA{GS}2290285393{GS}2290285394{GS}2290285395{GS}2290285396{GS}2290285397{GS}2290285398{GS}2290285399{GS}2290285400{GS}2290285401{GS}2290285402{GS}2290285403{GS}2290285404{GS}2290285405{GS}2290285406{GS}2290285407{GS}2290285408{GS}2290285409{GS}2290285410{GS}2290285411{GS}2290285412{GS}{RS}{Eot}</Value>
+					</TextDataHolder>
+					<ObjectLayout>
+						<DYMOPoint>
+							<X>0.6922914</X>
+							<Y>0.06</Y>
+						</DYMOPoint>
+						<Size>
+							<Width>2.07021</Width>
+							<Height>0.9833333</Height>
+						</Size>
+					</ObjectLayout>
+				</QRCodeObject>
+			</LabelObjects>
+		</DynamicLayoutManager>
+	</DYMOLabel>
+	<LabelApplication>Blank</LabelApplication>
+	<DataTable>
+		<Columns></Columns>
+		<Rows></Rows>
+	</DataTable>
+</DesktopLabel>

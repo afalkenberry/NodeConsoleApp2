@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.2039730">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="NewFolder\**" />
+    <TypeScriptConfiguration Remove="NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="layout.js" />
+    <None Remove="qr.xml" />
+    <None Remove="visitorManagement.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+</Project>

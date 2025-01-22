@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "npm: start",
+		"type": "npm",
+		"script": "start",  // Matches the "start" script in package.json
+		"isBackground": true,
+		"problemMatcher": ["$tsc-watch", "$eslint-stylish"],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  }
+	]
+  }

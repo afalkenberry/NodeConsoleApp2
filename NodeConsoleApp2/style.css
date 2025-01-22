@@ -1,0 +1,30 @@
+#header {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#upload-button {
+    margin-top: 20px;
+    padding-right: 5px;
+}
+
+#print-button {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+#my_file {
+    display: none;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#outputQRString {
+    display: none;
+}
+

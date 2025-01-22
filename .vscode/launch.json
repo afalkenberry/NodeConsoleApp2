@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Node.js Server",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${workspaceFolder}/server.js",  // Replace with your server file
+            "outFiles": ["${workspaceFolder}/**/*.js"],
+            "preLaunchTask": "npm: start",  // Optional, if you want to run a pre-configured task
+            "runtimeExecutable": null
+        },
+        {
+            "name": "Open in Browser with Live Server",
+            "type": "msedge",  // Use pwa-chrome to open Chrome in debugging mode
+            "request": "launch",
+            "url": "C:/Users/alec.falkenberry/source/repos/NodeConsoleApp2/NodeConsoleApp2/index.html",  // Live Server default port, adjust if needed
+            "webRoot": "C:/Users/alec.falkenberry/source/repos/NodeConsoleApp2/NodeConsoleApp2",
+            "preLaunchTask": "npm: start",  // Optional, if you want to start server before launching Live Server
+            "timeout": 30000
+        }
+
+    ]
+}
