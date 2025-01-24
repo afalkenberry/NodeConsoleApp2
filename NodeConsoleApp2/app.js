@@ -225,6 +225,3 @@ function printLabel() {
         console.error("Error printing label:", error);
     }
 }
-
-
-}
