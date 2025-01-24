@@ -1,20 +1,5 @@
 'use strict';
 
-const headers = new Headers({
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*', // Allow all origins for testing
-});
-
-const requestOptions = {
-    method: 'GET',
-    headers: headers,
-};
-
-fetch('http://localhost:41951/DYMO/DLS/Printing/StatusConnected', requestOptions)
-    .then(response => response.json())
-    .then(data => console.log('Service is running:', data))
-    .catch(error => console.error('Error:', error));
-
 window.addEventListener('DOMContentLoaded', function () {
     if (typeof dymo === 'undefined' || !dymo.label || !dymo.label.framework) {
         console.error('DYMO SDK not loaded!');
@@ -241,20 +226,5 @@ function printLabel() {
     }
 }
 
-function getPrintersWithHeaders() {
-    fetch('http://localhost:41951/DYMO/DLS/Printing/GetPrinters', {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*', // Include appropriate headers
-        },
-    })
-        .then(response => response.json())
-        .then(printers => {
-            console.log('Printers:', printers);
-        })
-        .catch(error => console.error('Error fetching printers:', error));
-}
 
-// Call this function instead of dymo.label.framework.getPrinters
-getPrintersWithHeaders();
+}
