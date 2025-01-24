@@ -240,3 +240,21 @@ function printLabel() {
         console.error("Error printing label:", error);
     }
 }
+
+function getPrintersWithHeaders() {
+    fetch('http://localhost:41951/DYMO/DLS/Printing/GetPrinters', {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*', // Include appropriate headers
+        },
+    })
+        .then(response => response.json())
+        .then(printers => {
+            console.log('Printers:', printers);
+        })
+        .catch(error => console.error('Error fetching printers:', error));
+}
+
+// Call this function instead of dymo.label.framework.getPrinters
+getPrintersWithHeaders();
